@@ -11,7 +11,7 @@ class Owner
       @@owners << self
     end
 
-    def reset_all
+    def self.reset_all
       @@owner.clear
     end
 
