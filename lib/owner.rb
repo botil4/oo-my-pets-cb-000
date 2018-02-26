@@ -1,6 +1,6 @@
 class Owner
 
-    attr_accessor
+    attr_accessor :pets
     attr_writer
     attr_reader :species
 
@@ -9,6 +9,7 @@ class Owner
     def initialize(species)
       @species = species
       @@owners << self
+      @pets = {fishes: [], cats: [], dogs: []}
     end
 
     def self.all
