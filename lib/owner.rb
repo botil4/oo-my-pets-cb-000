@@ -11,6 +11,10 @@ class Owner
       @@owners << self
     end
 
+    def all
+      @@owners
+    end
+
     def self.reset_all
       @@owner.clear
     end
