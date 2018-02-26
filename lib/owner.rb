@@ -1,6 +1,6 @@
 class Owner
 
-    attr_accessor :pets
+    attr_accessor :pets, :name
     attr_writer
     attr_reader :species
 
