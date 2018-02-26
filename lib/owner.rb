@@ -10,4 +10,8 @@ class Owner
       @species = species
     end
 
+    def reset_all
+      @@owner.clear
+    end
+
 end
